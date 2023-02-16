@@ -1,0 +1,158 @@
+.navbar{
+    /* border: solid black; */
+    margin-top: 5px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.logo{
+    /* border: solid cyan; */
+    width: 10%;
+    background-color: black;
+}
+.logoPic{
+    width: 70%;
+    margin-top: 0;
+    margin-left: 20px;
+    /* height: 70px; */
+}
+.menu{
+    /* border: solid magenta; */
+    width: 70%;
+
+}
+.searchbar{
+    /* border: solid yellow; */
+    width: 20%;
+
+}
+.searchIcon{
+    width: 10%;
+    float: right;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+.menuList{
+list-style: none;
+display: flex;
+justify-content: space-between;
+padding-top: 7px;
+
+}
+.menuItem{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;;
+}
+.menuItem:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.adbar{
+    height: 20vh;
+    background-color: black;
+}
+.mainContainerMedia{
+/* border:solid black; */
+height: 50vh;
+cursor: url("https://media.cdn.adultswim.com/uploads/20200127/201271140554-customCursor2.png"), auto;
+}
+.mainMedia{
+    width: 100%;
+    height: 50vh;
+}
+.textMedia{
+    height:15vh ;
+    padding-top: 3%;
+    font-size: 3em;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    cursor: url("https://media.cdn.adultswim.com/uploads/20200131/201311516295-pink.png"), auto;
+}
+.textMediaItem{
+    margin: 2%;
+    cursor: url("https://media.cdn.adultswim.com/uploads/20200131/201311516295-pink.png"), auto;
+}
+.textMedia:hover{
+    /* cursor: pointer; */
+    background-color: orange;
+    cursor: url("https://media.cdn.adultswim.com/uploads/20200131/201311516295-pink.png"), auto;
+}
+.footer{
+    height: 20vh;
+    background-color: black;
+    color: white;
+    padding-top: 4%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.footerMenu{
+    list-style: none;
+    /* margin-left: 17%; */
+}
+.footerMenuItem{
+    display: inline;
+    border-right: 1px solid white;
+    padding-right: 5px;
+}
+.copyright{
+    text-align: center;
+}
+.rickandMorty{
+    border: 1px solid rgb(243, 243, 57);
+    width: 11%;
+    font-size: 1.4em;
+    padding: 1%;
+    position: relative;
+    left: 45%;
+    top: -55%;
+    background-color: rgb(255, 255, 26);
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+cursor:default;
+}
+
+.thumbContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.thumbnail{
+ width: 18%;
+ height: 100%;
+ /* border: solid red; */
+}
+.leftArrow,.rightArrow{
+    /* border: solid green; */
+    width:3%;
+    height: 100%;
+    color: white;
+    background-color: white;
+    opacity: .5;
+}
+.thumPic{
+    width: 100%;
+    height: 100%;
+}
+.mainContainerPan{
+/* border: solid cyan; */
+background-color: black;
+height: 65vh;
+}
+.imageContained{
+    width: 60%;
+    height:95%;
+   margin-left: 20%;
+   margin-top: 1%;
+}
+.rightArrowPic{
+    width:100%;
+    margin-top: 50px;
+    
+}
